@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- START HEAD.EJS -->
+    <meta charset="UTF-8">
+    <title>Server status information</title>
+
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- END HEAD.EJS -->
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- START HEADER.EJS -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Server Status</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://yourcompany.com">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://client.yourcompany.com">Client-area</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="inlinelink" href="https://discord.gg/yourdiscordlink"><i class="fab fa-discord"></i></a>
+                    <a class="inlinelink" href="https://yourcompany.com"><i class="fas fa-globe"></i></a>
+                    <a class="inlinelink" href="https://twitter.com/yourtwitterhandle"><i class="fab fa-twitter"></i></a>
+              </span>
+            </div>
+        </nav>
+        <!-- END HEADER.EJS -->
+
+    </header>
+
+    <main>
+        <div class="systemdetector d-flex justify-content-center">
+            <h1><img class="statusimage" src="images/855053324838502421.gif"><span>All services are up!</span></h1>
+        </div>
+        <!-- <div class="systemdetector d-flex justify-content-center">
+            <h1><img class="statusimage" src="images/855053325292273684.gif"><span>Some services might be down.</span></h1>
+        </div> -->
+        <div class="inbetween"></div>
+        <div class="activeservers d-flex justify-content-left">
+            <ul>
+                <h2>Online Servers</h2>
+                <div class="inbetween"></div>
+
+                <h1><img src="./images/855053324838502421.gif"><span>SERVER NAME is Working!</span></h1>
+                <h1><img src="./images/855053324838502421.gif"><span>SERVER NAME is Working!</span></h1>
+            </ul>
+        </div>
+        <div class="inbetween"></div>
+        <div class="activeservers d-flex justify-content-left">
+            <ul>
+                <h2>Offline</h2>
+                <div class="inbetween"></div>
+
+                <h1><img src="./images/855053325292273684.gif"><span>SERVER NAME is Offline!</span></h1>
+                <h1><img src="./images/855053325292273684.gif"><span>SERVER NAME is Offline!</span></h1>
+            </ul>
+        </div>
+        <div class="inbetween"></div>
+
+    </main>
+
+    <footer>
+
+        <!-- START FOOTER.EJS -->
+        <p class="text-center text-muted">&copy; Made with <i class="fas fa-heartbeat"></i> and a <i class="fas fa-laptop"></i> by Justin P</p>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- END FOOTER.EJS -->
+
+    </footer>
+
+</body>
+
+</html>
